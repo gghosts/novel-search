@@ -1,6 +1,6 @@
 import React from "react";
 
-const SearchBox = (props) => {
+const SearchBox = () => {
   return (
     <div className="search-box">
       <form action="">
