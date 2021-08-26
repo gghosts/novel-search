@@ -6,12 +6,11 @@ class Books extends Component {
     super(props);
     this.state = {
       books: [],
-      searchField: ""
+      searchField: "",
     };
   }
 
   handleSearch = (e) => {
-    console.log(e.target.value);
     this.setState({ searchField: e.target.value });
   };
 
